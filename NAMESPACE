@@ -1,0 +1,2 @@
+export(read_ngb)
+S3method(print,ngb_file)

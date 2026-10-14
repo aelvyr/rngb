@@ -1,0 +1,14 @@
+Package: rngb
+Type: Package
+Title: Read NETZSCH STA NGB Measurement Files
+Version: 0.1.0
+Authors@R: c(person("Valery", "Fischer", role = c("aut", "cre"), email = "valery.fischer@example.org"), person("Grayson", "Bellamy", role = "cph", comment = "Original pyngb parser and format knowledge"))
+Description: A native R reader for NETZSCH simultaneous thermal analysis
+    sample-plus-correction (.ngb-ds3) and baseline (.ngb-bs3) files.
+    Extracts metadata, raw measurement channels, and embedded baseline runs.
+    Based on the MIT-licensed pyngb format parser. No Python or vendor
+    software is required. This is an unofficial implementation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: utils

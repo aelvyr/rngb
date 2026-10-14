@@ -1,0 +1,10 @@
+rngb is an unofficial native R parser for NETZSCH STA NGB files.
+
+The binary grammar, table model, channel mappings and metadata extraction
+rules were adapted from pyngb by Grayson Bellamy, under the MIT License.
+Reference: https://github.com/GraysonBellamy/pyngb
+Pinned source commit: 3650627ebabbdf41d4ce70310b0fd036bb0f9f85 (version 0.6.0).
+The R implementation is independently executed and requires no Python.
+
+NETZSCH and related marks are trademarks of NETZSCH-Gerätebau GmbH.
+This package is not affiliated with, endorsed by, or approved by NETZSCH.
