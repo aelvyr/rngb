@@ -4,11 +4,34 @@ A native, base R parser for NETZSCH STA `.ngb-ds3` (sample plus correction)
 and `.ngb-bs3` (baseline) files. Requires R >= 4.1; no Python, Arrow or
 NETZSCH software is needed at runtime.
 
-Install from this directory:
+## Install from GitHub
+
+Run this once in your R console:
+
+```r
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes", repos = "https://cloud.r-project.org")
+}
+remotes::install_github("aelvyr/rngb", upgrade = "never")
+```
+
+Then load the package in each R session:
+
+```r
+library(rngb)
+```
+
+The repository is public, so no GitHub account or token is required.
+The package contains only R code; no compiler or Python installation is needed.
+To update to the latest version, rerun `remotes::install_github("aelvyr/rngb", upgrade = "never")`.
+
+Alternatively, install from a local clone:
 
 ```sh
 R CMD INSTALL .
 ```
+
+## Read a file
 
 ```r
 library(rngb)

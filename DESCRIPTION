@@ -12,3 +12,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 4.1.0)
 Imports: utils
+URL: https://github.com/aelvyr/rngb
+BugReports: https://github.com/aelvyr/rngb/issues
